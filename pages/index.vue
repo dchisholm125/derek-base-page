@@ -20,10 +20,10 @@ const cards: CarouselCard[] = [
         btnText: 'some btn text',
     },
     {
-        imgSrc: drumkit,
+        imgSrc: thistledownRecoveryHome,
         title: 'Thistledown Recovery Home',
         contentText: 'A new website made from scratch with Vue.JS ( using the Nuxt framework) and Bootstrap CSS. The full build involved redirecting a Wix.com domain (thistledownrecovery.com), hosting a new website via GoDaddy.com (thistledownrecoveryhome.com), and leveraging Netlify.com for CI/CD.',
-        btnLink: 'https://derekchisholm.com/Thistledown/', 
+        btnLink: '/Thistledown/', 
         btnText: 'View Webpage',
     }
 ]
