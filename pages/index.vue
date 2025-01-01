@@ -1,6 +1,7 @@
 <script setup lang="ts">
 // import all assets before passing them to underlying components
 import drumkit from '~/assets/img/preview.png'
+import thistledownRecoveryHome from '~/assets/img/thistledown-preview.png'
 
 type CarouselCard = {
     imgSrc: typeof drumkit,
@@ -17,6 +18,13 @@ const cards: CarouselCard[] = [
         contentText: 'some content',
         btnLink: '#', 
         btnText: 'some btn text',
+    },
+    {
+        imgSrc: drumkit,
+        title: 'Thistledown Recovery Home',
+        contentText: 'A new website made from scratch with Vue.JS ( using the Nuxt framework) and Bootstrap CSS. The full build involved redirecting a Wix.com domain (thistledownrecovery.com), hosting a new website via GoDaddy.com (thistledownrecoveryhome.com), and leveraging Netlify.com for CI/CD.',
+        btnLink: 'https://derekchisholm.com/Thistledown/', 
+        btnText: 'View Webpage',
     }
 ]
 
