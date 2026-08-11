@@ -1,40 +1,35 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Primary navigation">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Derek's Dev Community</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+      <NuxtLink class="navbar-brand fw-semibold" to="/">Derek Chisholm</NuxtLink>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#primaryNav"
+        aria-controls="primaryNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExample04">
+      <div id="primaryNav" class="collapse navbar-collapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <NuxtLink class="nav-link" to="/">Home</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link" to="/Tester">
-                Tester
-            </NuxtLink>
+            <NuxtLink class="nav-link" to="/peak-derek">Operating Principles</NuxtLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="https://github.com/dchisholm125" target="_blank" rel="noreferrer">GitHub</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/dchisholm125/" target="_blank" rel="noreferrer">LinkedIn</a>
           </li>
         </ul>
-        <form role="search">
-          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-        </form>
       </div>
     </div>
   </nav>
