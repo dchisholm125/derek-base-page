@@ -1,75 +1,45 @@
-# Nuxt Minimal Starter
+# Derek Base Page
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Personal portfolio and project hub for Derek Chisholm, built with Nuxt 3, Vue, and Bootstrap.
+
+The site is evolving from a simple project gallery into a clearer representation of how I work: building useful systems, solving ambiguous problems, learning aggressively, and improving the quality of the outcomes around me.
+
+## Peak Derek operating model
+
+The portfolio is guided by a lightweight personal operating system called **Peak Derek**. Its purpose is not to optimize one metric; it is to compound capability across the parts of life that make sustained high performance possible:
+
+- **Mental performance** — clarity, confidence, resilience, and good judgment
+- **Career** — meaningful work, technical growth, leadership, and optionality
+- **Family** — presence, stability, connection, and shared experiences
+- **Health & energy** — sleep, movement, recovery, and sustainable performance
+- **Finance** — resilience and freedom to make better long-term choices
+- **Life & adventure** — skiing, golf, travel, outdoors, curiosity, and fun
+- **Long-term dreams** — ambitious projects and lifestyle goals built from a strong foundation
+
+The full public charter is in [`docs/PEAK_DEREK.md`](docs/PEAK_DEREK.md).
 
 ## Setup
 
-Make sure to install dependencies:
+Install dependencies:
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Start the development server:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
+Build for production:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+Generate the static site:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+npm run generate
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
